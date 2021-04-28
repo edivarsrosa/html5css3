@@ -1,0 +1,44 @@
+*{
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Stylo do menu de navegação */
+.topnav {
+    overflow:hidden;
+    background-color: #333;
+}
+
+/*Stylo dos links de navegação */
+.topnav a{
+    float:left;
+    display:block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Mudança de cor Hover */
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style do conteúdo */
+.content {
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px; /*pode ser removido. apenas para demosntração */
+}
+
+/*Style do rodapé */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
